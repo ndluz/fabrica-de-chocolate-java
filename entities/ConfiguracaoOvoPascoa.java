@@ -3,7 +3,7 @@ package entities;
 import java.util.List;
 import java.util.ArrayList;
 
-public abstract class ConfiguracaoOvoPascoa extends ConfiguracaoMaquina {
+public class ConfiguracaoOvoPascoa extends ConfiguracaoMaquina {
 	private OvoPascoa ovoPascoa;
 	
 	public ConfiguracaoOvoPascoa(OvoPascoa op) {
