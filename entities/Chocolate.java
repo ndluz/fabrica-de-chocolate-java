@@ -20,6 +20,6 @@ public class Chocolate {
 	public String toString() {
 		return "Chocolate CACAU = " + this.cacau * 100 + 
 				"%, LEITE = " + this.leite * 100 + "%, AÇÚCAR = " 
-				+ acucar * 100 + "%, RECHEIO = " + recheio.toUpperCase();
+				+ this.acucar * 100 + "%, RECHEIO = " + this.recheio + ", ";
 	}
 }
