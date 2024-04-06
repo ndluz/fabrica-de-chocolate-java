@@ -19,6 +19,7 @@ public class ConfiguracaoOvoPascoa extends ConfiguracaoMaquina {
 	public List<Chocolate> produzir(int quantidade) {
 		List<Chocolate> ovosPascoa = new ArrayList<>();
 		for(int i = 0; i < quantidade;  i++) {
+			System.out.print(i+1 +": produzindo OvoPascoa: ");
 			ovosPascoa.add(this.setOvo(this.ovoPascoa));
 		}
 		return ovosPascoa;
