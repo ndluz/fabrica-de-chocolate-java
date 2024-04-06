@@ -19,6 +19,7 @@ private Bombom bombom;
 	public List<Chocolate> produzir(int quantidade) {
 		List<Chocolate> bombom = new ArrayList<>();
 		for(int i = 0; i < quantidade;  i++) {
+			System.out.print(i+1 +": produzindo Bombom: ");
 			bombom.add(this.setBombom(this.bombom));
 		}
 		return bombom;
