@@ -13,6 +13,6 @@ public class OvoPascoa extends Chocolate {
 	
 	@Override
 	public String toString() {
-		return super.toString() + "Tamanho = " + this.tamanho + ", BRINDE" + this.brinde; 
+		return super.toString() + "Tamanho = " + this.tamanho + ", BRINDE = " + this.brinde; 
 	}
 }
